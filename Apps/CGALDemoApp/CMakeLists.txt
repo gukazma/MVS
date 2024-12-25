@@ -1,4 +1,4 @@
-set(TARGET_NAME DemoApp)
+set(TARGET_NAME CGALDemoApp)
 find_package(CGAL REQUIRED COMPONENTS Qt6 Core)
 find_package(Qt6 REQUIRED Core Gui ShaderTools Widgets)  
 qt_standard_project_setup()
